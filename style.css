@@ -1,0 +1,57 @@
+body {
+  background-color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background-color: rgb(139, 14, 139);
+  color: #fff;
+  text-align: center;
+}
+header h1 {
+  margin-top: 0;
+  line-height: 50px;
+}
+
+.about-us h2,
+.about-us p {
+  color: #000;
+}
+
+.theme {
+  width: 49.45%;
+  display: inline-block;
+}
+.theme img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.theme a {
+  display: block;
+  text-align: center;
+  width: 100px;
+  margin: 10px auto;
+  text-decoration: none;
+  background-color: rgb(139, 14, 139);
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.theme a:hover {
+  background-color: rgb(185.3333333333, 18.6666666667, 185.3333333333);
+}
+
+footer {
+  height: 50px;
+  background-color: rgb(139, 14, 139);
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  line-height: 50px;
+}/*# sourceMappingURL=style.css.map */

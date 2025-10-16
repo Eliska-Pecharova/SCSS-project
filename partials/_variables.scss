@@ -1,0 +1,24 @@
+//Theme: light / dark
+$theme: light;
+
+//LIGHT THEME
+// colors
+$body-bc: #fff;
+$header-footer-bc: rgb(139, 14, 139);
+$text-header-foot-color: #fff;
+$text-color: #000;
+$ordinary-border: 2px solid black;
+
+//sizes
+$header-height: 50px;
+$footer-height: 50px;
+
+//DARK THEME
+@if $theme == dark {
+  $body-bc: #000;
+  $text-color: #fff;
+  $header-height: 80px;
+  $footer-height: 80px;
+  $ordinary-border: 2px solid white;
+  $header-footer-bc: rgb(48, 40, 48);
+}
